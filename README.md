@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Harmonix Chatbot** is an interactive Streamlit application that provides users with detailed information about concerts. The chatbot utilizes AI (via Google’s Gemini model) to answer user queries about concerts, including dates, venues, prices, and more. The project also includes a web scraping module to collect concert data from the iTicket website.
+**Harmonix Chatbot** is an interactive Streamlit application that provides users with detailed information about concerts. The chatbot utilizes AI to answer user queries about concerts, including dates, venues, prices, and more. The project also includes a web scraping module to collect concert data from the iTicket website.
 
 ## Features
 
@@ -15,7 +15,7 @@
 ## Project Structure
 
 - harmonix_chatbot/
-    - app.py                      # Main application code
+    - app.py                      #Main application code
     - utils/
         - data_loader.py          # Functions for loading concert data
         - image_display.py        # Functions for displaying images
@@ -61,7 +61,7 @@ Before running the chatbot, you need to scrape the concert data:
 
 1. **Run the web scraping script**:
     ```bash
-    python utils/scraper.py
+    python utils/scrape.py
     ```
    This script will generate `complete_urls.txt` with event URLs and `concert_data.json` with detailed concert information.
 
