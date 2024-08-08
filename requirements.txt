@@ -1,0 +1,9 @@
+streamlit
+streamlit-chat
+requests
+Pillow
+matplotlib
+google-generativeai
+python-dotenv
+selenium
+beautifulsoup4
