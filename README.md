@@ -24,18 +24,11 @@
     - assets/
         - complete_urls.txt       # Scraped URLs of concert events
         - concert_data.json       # JSON file containing scraped concert data
-    - .env                        # Environment variables (e.g., API keys)
     - requirements.txt            # Python dependencies
     - README.md                   # Project documentation
 
 
 ## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- Google Gemini API Key (for generating AI responses)
-- Chrome WebDriver (for web scraping)
 
 ### Installation
 
@@ -50,11 +43,6 @@
     pip install -r requirements.txt
     ```
 
-3. **Set up environment variables**:
-   - Create a `.env` file in the root directory:
-     ```
-     GOOGLE_API_KEY=your_google_api_key
-     ```
 ### Scraping Concert Data
 
 Before running the chatbot, you need to scrape the concert data:
@@ -96,13 +84,10 @@ streamlit run app.py
 - Contains functions to display images within the Streamlit app.
 
 ### `utils/ai_response.py`
-- Handles interaction with the Google Gemini AI model to generate responses.
+- Handles interaction with the AI model to generate responses.
 
 ## Future Enhancements
 
 - Implement additional languages for broader user accessibility.
 - Add more sophisticated NLP techniques for better understanding of user queries.
 - Enhance the UI/UX of the Streamlit app.
-
-"# Harmonix" 
-"# Harmonix" 
